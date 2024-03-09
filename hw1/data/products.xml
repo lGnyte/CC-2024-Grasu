@@ -1,0 +1,33 @@
+<!--
+Products entity
+
+Attributes:
+- id: Unique identifier for the product.
+
+Child Elements:
+- name: Name of the product.
+- description: Description of the product.
+- price: Price of the product.
+- category: Category of the product.
+-->
+
+<products>
+  <product id="1">
+    <name>T-Shirt</name>
+    <description>A comfortable and stylish T-Shirt</description>
+    <price>19.99</price>
+    <category>Clothing</category>
+  </product>
+  <product id="2">
+    <name>Coffee Mug</name>
+    <description>A sturdy and stylish mug for your morning coffee</description>
+    <price>12.99</price>
+    <category>Kitchenware</category>
+  </product>
+  <product id="3">
+    <name>Notebook</name>
+    <description>A lined notebook for your notes and ideas</description>
+    <price>8.99</price>
+    <category>Stationery</category>
+  </product>
+</products>
