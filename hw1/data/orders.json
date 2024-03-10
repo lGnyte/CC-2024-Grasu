@@ -1,0 +1,30 @@
+{
+  "orders": [
+    {
+      "id": "1",
+      "customer_id": "1",
+      "date": "2024-03-09",
+      "items": [
+        { "product_id": "1", "quantity": 2 },
+        { "product_id": "2", "quantity": 1 }
+      ]
+    },
+    {
+      "id": "2",
+      "customer_id": "2",
+      "date": "2024-03-08",
+      "items": [
+        { "product_id": "3", "quantity": 3 }
+      ]
+    },
+    {
+      "id": "3",
+      "customer_id": "3",
+      "date": "2024-03-07",
+      "items": [
+        { "product_id": "1", "quantity": 1 },
+        { "product_id": "2", "quantity": 2 }
+      ]
+    }
+  ]
+}

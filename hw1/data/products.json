@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "T-Shirt",
+      "description": "A comfortable and stylish T-Shirt",
+      "price": 19.99,
+      "category": "Clothing"
+    },
+    {
+      "id": "2",
+      "name": "Coffee Mug",
+      "description": "A sturdy and stylish mug for your morning coffee",
+      "price": 12.99,
+      "category": "Kitchenware"
+    },
+    {
+      "id": "3",
+      "name": "Notebook",
+      "description": "A lined notebook for your notes and ideas",
+      "price": 8.99,
+      "category": "Stationery"
+    }
+  ]
+}

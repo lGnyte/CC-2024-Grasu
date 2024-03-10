@@ -1,0 +1,37 @@
+{
+  "customers": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zip": "12345"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "address": {
+        "street": "456 Elm St",
+        "city": "Springfield",
+        "state": "NY",
+        "zip": "54321"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Michael Lee",
+      "email": "michael.lee@example.com",
+      "address": {
+        "street": "789 Oak Ave",
+        "city": "Metropolis",
+        "state": "TX",
+        "zip": "78901"
+      }
+    }
+  ]
+}
