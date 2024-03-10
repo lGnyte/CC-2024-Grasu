@@ -1,31 +1,37 @@
 import { readFileSync } from 'fs';
-import parser from 'xml2json';
 
 export const loadCustomers = () => {
-  const data = readFileSync('data/customers.xml', 'utf8');
-  const json = parser.toJson(data);
-  return json;
+  let customers = [];
+  try {
+    const data = readFileSync('data/customers.json', 'utf8');
+    customers = JSON.parse(data);
+  } catch (error) {
+    console.error('Error reading customers.json', error);
+  } finally {
+    return customers;
+  }
 };
 
 export const loadProducts = () => {
-  const data = readFileSync('data/products.xml', 'utf8');
-  const json = parser.toJson(data);
-  return json;
+  let products = [];
+  try {
+    const data = readFileSync('data/products.json', 'utf8');
+    products = JSON.parse(data);
+  } catch (error) {
+    console.error('Error reading products.json', error);
+  } finally {
+    return products;
+  }
 }
 
 export const loadOrders = () => {
-  const data = readFileSync('data/orders.xml', 'utf8');
-  const json = parser.toJson(data);
-  return json;
-}
-
-export const showEndpoints = () => {
-  return JSON.stringify({
-    endpoints: [
-      { path: '/', method: 'GET', description: 'Returns an empty JSON object' },
-      { path: '/customers', method: 'GET', description: 'Returns a list of customers' },
-      { path: '/products', method: 'GET', description: 'Returns a list of products' },
-      { path: '/orders', method: 'GET', description: 'Returns a list of orders' },
-    ]
-  });
+  let orders = [];
+  try {
+    const data = readFileSync('data/orders.json', 'utf8');
+    orders = JSON.parse(data);
+  } catch (error) {
+    console.error('Error reading orders.json', error);
+  } finally {
+    return orders;
+  }
 }
