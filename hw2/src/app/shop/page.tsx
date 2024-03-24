@@ -12,6 +12,10 @@ export default function Shop(){
       <Link href={"/shop/customers"} className="px-4 py-2 bg-gray-800 rounded-md my-2">
         Manage customers
       </Link>
+      <br /><br />
+      <Link href={"/shop/products"} className="px-4 py-2 bg-gray-800 rounded-md my-2">
+        Manage products
+      </Link>
     </>
   )
 }
