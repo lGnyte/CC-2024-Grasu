@@ -12,6 +12,10 @@ export default function Home() {
       <Link href={"/vendor-validation"} className="text-blue-500 text-lg">
         Verify vendor credentials
       </Link>
+      <br />
+      <Link href={"/invoice-number"} className="text-blue-500 text-lg">
+        Generate invoice number
+      </Link>
     </main>
   );
 }
