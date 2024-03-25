@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "HW2 - Shop",
-  description: "Shop area",
+  title: "HW2 - Invoice number",
+  description: "Invoice area",
 };
 
 export default function RootLayout({
